@@ -163,3 +163,38 @@ body {
     font-size: 14px;
 }
 
+@media screen and (max-width: 768px) {
+
+    
+    .container {
+        display: block;
+        background-image: none;
+        height: 100vw;
+    }
+
+    .container__image {
+        width: 50vw;
+    }
+
+    .container__box {
+        margin: 2em 2em;
+    }
+
+    .secondary__container {
+        margin: 0;
+        text-align: center;
+        height: 80vw;
+    }
+
+    .secondary__image {
+        width: 50vw;
+    }
+
+    .devices-list {
+        display: block;
+    }
+
+    .footer___list {
+        display: block;
+    }
+}
