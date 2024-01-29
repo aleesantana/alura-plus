@@ -163,11 +163,16 @@ body {
     font-size: 14px;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 768px) {
     
+    .container,
+    .secondary__container,
+    .devices-list,
+    .footer___list {
+        display: inline-block;
+    }
+    
     .container {
-        display: block;
         background-image: none;
         height: 100vw;
     }
@@ -183,20 +188,10 @@ body {
     .secondary__container {
         margin: 0;
         text-align: center;
-        height: 80vw;
+        height: 90vw;
     }
 
     .secondary__image {
         width: 50vw;
     }
-
-    .devices-list {
-        display: block;
-    }
-
-    .footer___list {
-        display: block;
-    }
 }
-=======
->>>>>>> parent of f9382c7 (responsividade Alura Plus)
